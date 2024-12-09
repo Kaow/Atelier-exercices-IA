@@ -1,4 +1,4 @@
-# Exercice2 - TDD ~20 minutes
+# Exercice2 - TDD ~45 minutes
 
 ## 🛠️ Comment Utiliser ce dépôt
 
