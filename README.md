@@ -9,8 +9,11 @@ Vous pouvez récupérer ce repository en le clonant ou le fork dans votre espace
 Vous avec à votre disposition plusieurs branches qui représentent chacun un type d'exercice :
 
 01-Méthodologie IA : reprends les méthodologies vues pendant la formation.
+
 02-Testing-IA : vous permet de tester l'utilisation de l'IA sur un petit projet.
+
 03-Exercices pratiques : quelques exercices supplémentaires sur des uses cases communs.
+
 Chaque exercice aura ensuite sa propre méthode de réalisation.
 
 ## Prérequis
