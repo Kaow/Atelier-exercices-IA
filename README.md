@@ -1,82 +1,12 @@
-# Exercice2 - TDD ~20 minutes
+# Méthodologie ~45min
 
 ## 🛠️ Comment Utiliser ce dépôt
 
-Pour cloner ce projet, utilisez la commande suivante :
+Chaque fichier représente une méthodologie vue en formation.
+Vous pouvez sélectionner la méthodologie que vous voulez étudier dans l'ordre que vous voulez.
+Vous aurez une description de la méthodologie travaillée et des énoncés.
+Vous avez des encadrés à disposition directement dans les fichiers pour mettre vos réponses.
+Le bloc "Intégrer votre prompt ci-dessous" pour le prompt utilisé pour réaliser l'énoncé.
+Le bloc "Quelle a été la réponse ?" pour mettre la réponse de votre IA.
 
-```bash
-git clone <A AJOUTER L'URL DU REPO FINAL>
-```
-
-Ensuite, installez les dépendances nécessaires :
-
-```bash
-npm install
-```
-
-## Objectif
-Le but de cet exercice est de découvrir comment utiliser les outils d'IA pour vous assister dans la pratique du test driven development.
-
-Pour rappel le test driven development ou TDD consiste en le fait de rédiger des test unitaires avant la création même du code. La rédaction de ces tests permet de définir le comportement attendu par les fonctions. Une fois le code rédigé, les tests peuvent être lancés pour valider le comportement.
-
-Dans cet exercice, vous retrouverez la classe utils qui a pour objectif d'offrir des fonctions utilitaires pour le traitement de dates avec ou sans heures. Vous serez amenés à rédiger des tests pour les fonctions que nous souhaitons implémenter et ensuite le code des fonctions.
-
-### Instructions
-
-- Clonez ce projet.
-- Rendez vous dans le fichier `utils` pour prendre connaissance des squelettes de méthodes crée et dans `utils.test` pour voir les tests implémentés.
-- Réalisez les différentes implémentations décrites dans la partie étapes du bas
-- Lancer les tests déjà présents et ceux que vous aurez écrits
-
-### 1. Rédaction de fonctions à partir de tests unitaires
-Pour la première partie de cette exercise, nous allons rédiger des fonctions pour le traitement de `LocalDate`. Dans la classe `utils.test`, une serie de tests unitaires ont été rédigés qui dictent le comportement attendu par 3 fonctions. Il faudra maintenant s'appuyer sur Continue pour rédiger le code de ces fonctions en fonction du tests unitaire.
-
-- **Implémentez la méthode `formatDate(LocalDate date)`** :
-   - Il faudra partir du test `testFormatDate_ValidDate` déjà rédigé dans `utils.test`
-   - Cette méthode doit accepter un objet `LocalDate` et retourner un `String` au format `yyyy-mm-dd`.
-
-- **Implémentez la méthode `parseDate(String date)`** :
-   - Il faudra partir du test `testParseDate_ValidDate` déjà rédigé dans `utils.test`
-   - Cette méthode doit accepter un `String` au format `yyyy-mm-dd` et retourner un objet `LocalDate`.
-
-- **Implémentez la méthode `formatDateWithPattern(LocalDate date, String pattern)`** :
-   - Il faudra partir du test `testFormatDate_WithPattern` déjà rédigé dans `utils.test`
-   - Cette méthode doit accepter un objet `LocalDate` et un `String` qui contiendra le pattern de la date attendu, ex : 'yyyy-mm-dd' et retourner un `String` avec la date au format attendu.
-
-
-### 2. Rédaction de test unitaires et puis de fonctions
-Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `LocalDateTime`. Cette fois-ci, il faudra rédiger des tests qui dicteront le comportement des fonctions, puis enchainer avec la rédaction de la fonction.
-- **Pour la fonction `formatDateTime(LocalDateTime dateTime)`** :
-   - Rédigez un premier test `testFormatDateTime_ValidDateTime` qui vérifiera que pour une `LocalDateTime` donnée, la fonction `formatDateTime` retourne bien une chaine de caractère, _ex : "2024-08-31T08:46:00"_
-   - Ce test échouera bien sûr car la fonction appelée n'est pas encore implémentée
-   - Une fois le test rédigé, vous pouvez vous attaquer à la rédaction de fonction `formatDateTime(LocalDateTime dateTime)`
-   - Assurez vous que le test que vous avez rédigé passe maintenant
-
-- **Pour la fonction `parseDateTime(String dateTimeString)`** :
-   - Rédigez un premier test `testParseDateTime_ValidDateTime` qui vérifiera que pour une `String` donnée, au format yyyy-MM-ddThh:mm:ss,  la fonction `parseDateTime` retourne bien un objet `LocalDateTime`, _ex : "2024-08-31T08:46:00"_
-   - Rédigez un deuxième test `testParseDateTime_InvalidDateTime` qui vérifiera que pour une `String` pas au format yyyy-MM-ddThh:mm:ss, la fonction `formatDateTime` échoue bien avec une exception `DateTimeParseException`, _ex : "invalid-date"_
-   - Ces tests échoueront bien sûr car la fonction appelée n'est pas encore implémentée
-   - Une fois les tests rédigés, vous pouvez vous attaquer à la rédaction de fonction `parseDateTime(String dateTimeString)`
-   - Assurez vous que les tests que vous avez rédigés passent maintenant
-
-- **Pour la fonction `formatDateTime(LocalDateTime dateTime, String pattern)`** :
-   - Rédigez un premier test `testFormatDateTime_WithPattern` qui vérifiera que pour une `LocalDateTime` donnée et un pattern choisi, la fonction `formatDateTime` retourne bien une chaine de caractère au format donnée, _ex : avec dd/MM/yyyy HH:mm:ss on a "31/08/2024 08:46:00"_
-   - Ce test échouera bien sûr car la fonction appelée n'est pas encore implémentée
-   - Une fois le test rédigé, vous pouvez vous attaquer à la rédaction de fonction `formatDateTime(LocalDateTime dateTime, String pattern)`
-   - Assurez vous que le test que vous avez rédigé passe maintenant
-
-
-### Comment exécuter les tests :
-
-1. Lancez les tests avec :
-
-```bash
-npm npm test
-```
-
-2. Assurez-vous que tous les tests passent avant de soumettre votre solution.
-
-### Critères de validation :
-
-- Les fonctions pour le traitement des `Date` sont rédigés et les tests déjà écrits passent tous.
-- Les tests et fonctions pour le traitement des `DateTime` sont rédigés et les tests écrits passent tous.
+A vos prompts !
