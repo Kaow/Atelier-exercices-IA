@@ -1,4 +1,4 @@
-# Méthodologie ~45min
+# Méthodologie ~30min
 
 ## 🛠️ Comment Utiliser ce dépôt
 
