@@ -2,7 +2,7 @@
 
 ## 🛠️ Comment Utiliser ce dépôt
 
-Chaque fichier représente une méthodologie vue en formation (ex: "01 Fewshot prompting") accompagné d'un fichier avec une solution possible (ex: "01 Fewshot prompting solution). 
+Chaque fichier représente une méthodologie vue en formation (ex: "01 Fewshot prompting") accompagné d'un fichier avec une solution possible (ex: "05 Fewshot prompting solution). 
 Vous pouvez sélectionner la méthodologie que vous voulez étudier dans l'ordre que vous voulez.
 Vous aurez une description de la méthodologie travaillée et des énoncés (dont le dernier étant un bac à sable, vous permettant de tester un peu plus).
 Vous avez des encadrés à disposition directement dans les fichiers pour mettre vos réponses.
