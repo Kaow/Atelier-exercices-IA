@@ -1,20 +1,17 @@
 # ATELIER EXERCICE IA
 
 ## Introduction 
-Bienvenue à cet atelier dédié à l'exploration des outils d'intelligence artificielle (IA) et à l'apprentissage des bases de l'écriture de prompts.
-L'IA est en train de transformer de nombreux aspects de notre vie quotidienne et professionnelle, et savoir comment interagir efficacement avec ces outils peut grandement améliorer votre productivité et votre créativité.
+Bienvenue à cet atelier méthodologie
+Vous allez revoir les méthodologies vues en formation et pouvoir les tester dans des mises en situation.
 
-## 🛠️ Comment utiliser ce repository
-Vous pouvez récupérer ce repository en le clonant ou le fork dans votre espace github personnel afin de pouvoir avoir et garder ces exercices chez vous sur du long terme.
-Vous avec à votre disposition plusieurs branches qui représentent chacun un type d'exercice :
+## Contenu
+Pour chacun des exercices, vous aurez une introduction de la méthodologie puis plusieurs énoncés.
+Chaque énoncé comporte une instruction à suivre et un exemple à utiliser si vous n'avez pas d'exemple à votre disposition.
 
-01-Méthodologie IA : reprends les méthodologies vues pendant la formation.
-02-Testing-IA : vous permet de tester l'utilisation de l'IA sur un petit projet.
-03-Exercices pratiques : quelques exercices supplémentaires sur des uses cases communs.
-Chaque exercice aura ensuite sa propre méthode de réalisation.
-
-## Prérequis
-- Avoir suivi la formation IA
-- Un outil IA (Chatgpt, Microsoft copilot, Continue, etc)
-
-Si vous êtes prêt(e), c'est parti, partons pour la branche d'exercice 01
+## Comment ça marche
+Écrivez votre prompt sur votre outil en essayant d'apporter le plus d'informations nécessaires pour que le résultat reçu soit satisfaisant.
+Lorsque cela est le cas, récupérew le prompt écrit et collez-le dans le bloc "Intégrer votre prompt ci-dessous".
+Vous pouvez également récupérer la réponse de votre IA et la coller dans le bloc "Quelle a été la réponse".
+Pour pouvoir modifier un des fichiers d'exercice, cliquez sur le-dit fichier puis en haut à droite, vous aurez un bouton "edit this file" avec une icône de crayon.
+En cliquant dessus, vous pourrez modifier le fichier directement.
+Après vos modifications, vous pouvez les appliquer en cliquant sur le bouton en haut à droite "commit changes".
