@@ -2,7 +2,7 @@
 // Exemple : formatDate(new Date(2023, 11, 25)) doit retourner "2023-12-25"
 
 
-//========================= Date ============================
+//========================= TDD ============================
 
 /**
  * Prend un objet Date et le transforme au format yyyy-MM-dd et retourne
@@ -38,7 +38,7 @@ export function formatDateWithPattern(date: Date, pattern: String) {
   return null;
 }
 
-//========================= DateTime ============================
+//========================= Test par description ============================
 
 
 /**
@@ -66,6 +66,9 @@ export function parseDateTime(dateString: String) {
 }
 
 
+
+//========================= Test par code ============================
+
 /**
  * Prend un objet Date et le transforme au format souhaité, tant que ce dernier est valide
  * @param dateTime Object Date
@@ -73,6 +76,23 @@ export function parseDateTime(dateString: String) {
  * @return chaine de caractère formaté avec le pattern en entrée ex : "2024-08-31T08:46:00"
  */
 export function formatDateTimeWithPattern(dateTime: Date, pattern: String) {
-  // TODO :: fonction à implémenter
-  return null;
+  if (!dateTime || !(dateTime instanceof Date)) {
+    return null;
+  }
+
+  const year = dateTime.getFullYear();
+  const month = ('0' + (dateTime.getMonth() + 1)).slice(-2);
+  const day = ('0' + dateTime.getDate()).slice(-2);
+  const hours = ('0' + dateTime.getHours()).slice(-2);
+  const minutes = ('0' + dateTime.getMinutes()).slice(-2);
+  const seconds = ('0' + dateTime.getSeconds()).slice(-2);
+
+  const formattedDate = pattern.replace(/yyyy/g, year.toString())
+    .replace(/MM/g, month)
+    .replace(/dd/g, day)
+    .replace(/hh/g, hours)
+    .replace(/mm/g, minutes)
+    .replace(/ss/g, seconds);
+
+  return formattedDate;
 }

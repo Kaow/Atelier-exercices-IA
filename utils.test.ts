@@ -3,7 +3,7 @@ import { formatDate, parseDate, formatDateWithPattern, formatDateTime, parseDate
 
 describe("formatDate", () => {
 
-  //========================= Date ============================
+  //========================= TDD ============================
 
   it("testFormatDate_ValidDate", () => {
     const date = new Date(2023, 9, 16); // October 16, 2023
@@ -17,12 +17,12 @@ describe("formatDate", () => {
 
   it("testFormatDate_WithPattern", () => {
     const date = new Date(2024, 9, 28); // October 28, 2023
-    expect(formatDate(date, "dd/MM/yyyy")).toBe("28/10/2024");
-    expect(formatDate(date, "yyyy-MM-dd")).toBe("2024-10-28");
+    expect(formatDateWithPattern(date, "dd/MM/yyyy")).toBe("28/10/2024");
+    expect(formatDateWithPattern(date, "yyyy-MM-dd")).toBe("2024-10-28");
   });
 
 
-  //========================= DateTime ============================
+  //========================= Test par description ============================
   it("testFormatDateTime_ValidDateTime", () => {
     // TODO :: test à implémenter
   });
@@ -31,6 +31,8 @@ describe("formatDate", () => {
     // TODO :: test à implémenter
   });
 
+
+  //========================= Test par code ============================
   it("testFormatDateTime_WithPattern", () => {
     // TODO :: test à implémenter
   });
