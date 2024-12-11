@@ -2,11 +2,15 @@
 
 ## 🛠️ Comment Utiliser ce dépôt
 
-Pour cloner ce projet, utilisez la commande suivante :
+Pour cloner ce projet, ouvrez un terminal de commande avec le chemin vers l'emplacement où vous voulez placer cet atelier et utilisez la commande suivante :
 
 ```bash
-git clone --branch <votre branche> <l'url de votre git>
-ici git clone --branch 02-JS-Testing-IA https://github.com/Kaow/Atelier-exercices-IA.git
+git clone --branch 02-JS-Testing-IA https://github.com/Kaow/Atelier-exercices-IA.git
+```
+
+Puis, vous pouvez entrer dans le nouveau dossier que vous venez de récupérer avec la commande :
+```bash
+cd Atelier-exercices-IA
 ```
 
 Ensuite, installez les dépendances nécessaires :
