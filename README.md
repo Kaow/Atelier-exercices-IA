@@ -33,7 +33,7 @@ Dans cet exercice, vous retrouverez la classe utils qui a pour objectif d'offrir
 - Réalisez les différentes implémentations décrites dans la partie étapes du bas
 - Lancer les tests déjà présents et ceux que vous aurez écrits
 
-### 1. TDD - Rédaction de fonctions à partir de tests unitaires
+### 1. TDD - Rédaction de fonctions à partir de tests
 Pour la première partie de cette exercise, nous allons rédiger des fonctions pour le traitement de `Date`. Dans la classe `utils.test`, une serie de tests unitaires ont été rédigés qui dictent le comportement attendu par 3 fonctions. Il faudra maintenant s'appuyer sur Continue pour rédiger le code de ces fonctions en fonction du tests unitaire.
 
 - **Implémentez la méthode `formatDate(LocalDate date)`** :
@@ -49,7 +49,7 @@ Pour la première partie de cette exercise, nous allons rédiger des fonctions p
    - Cette méthode doit accepter un objet `Date` et un `String` qui contiendra le pattern de la date attendu, ex : 'yyyy-mm-dd' et retourner un `String` avec la date au format attendu.
 
 
-### 2. Rédaction de test unitaires par description
+### 2. Rédaction de tests unitaires par description
 Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `Date`. Cette fois-ci, il faudra rédiger des tests qui dicteront le comportement des fonctions, puis enchainer avec la rédaction de la fonction.
 - **Pour la fonction `formatDateTime(Date dateTime)`** :
    - Rédigez un premier test `testFormatDateTime_ValidDateTime` qui vérifiera que pour une `Date` donnée, la fonction `formatDateTime` retourne bien une chaine de caractère, _ex : "2024-08-31T08:46:00"_
@@ -64,7 +64,7 @@ Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `
    - Une fois les tests rédigés, vous pouvez vous attaquer à la rédaction de fonction `parseDateTime(String dateTimeString)`
    - Assurez vous que les tests que vous avez rédigés passent maintenant
 
-### 3. Test par code
+### 3. Rédaction de tests unitaires par code
 Sur cette dernière parties de l'exercice, nous allons nous attaquer au bloc Testing, qui va vous permettre d'écrire des tests unitaire en fonction d'un code donné
 - **Pour la fonction `formatDateTime(Date dateTime, String pattern)`** :
    - Rédigez des tests unitaire dans `testFormatDateTime_WithPattern` qui vérifiera que pour une `Date` donnée et un pattern choisi, la fonction `formatDateTime` retourne bien une chaine de caractère au format donnée, _ex : avec dd/MM/yyyy HH:mm:ss on a "31/08/2024 08:46:00"_
