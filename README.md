@@ -71,7 +71,7 @@ Sur cette deuxième partie de l'exercice, nous allons nous attaquer aux object `
 1. Lancez les tests avec :
 
 ```bash
-npm npm test
+npm test
 ```
 
 2. Assurez-vous que tous les tests passent avant de soumettre votre solution.
