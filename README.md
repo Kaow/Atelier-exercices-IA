@@ -5,7 +5,8 @@
 Pour cloner ce projet, utilisez la commande suivante :
 
 ```bash
-git clone <A AJOUTER L'URL DU REPO FINAL>
+git clone --branch <votre branche> <l'url de votre git>
+ici git clone --branch 02-JS-Testing-IA https://github.com/Kaow/Atelier-exercices-IA.git
 ```
 
 Ensuite, installez les dépendances nécessaires :
