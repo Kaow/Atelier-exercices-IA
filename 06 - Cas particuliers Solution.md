@@ -30,7 +30,6 @@ for nombre in list:
 **A vous de jouer en intégrant votre prompt ci-dessous**
 
 ```
-Sur Maia : 
 En tant que développeur python, décrit de manière détaillé ce que fait ce code :
 def calcul(limit): 
     primes = [] 
@@ -54,12 +53,6 @@ list = calcul(limite)
   
 for nombre in list: 
     print(nombre) 
-    
-    
-Sur le plugin GenAI : 
-Ecrivez votre code dans une classe
-Selectionnez-le
-clique droit > BPCE GenAI: Explain code
 ```
 **Quelle a été la réponse ?**
 
