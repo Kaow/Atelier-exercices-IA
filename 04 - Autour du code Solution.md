@@ -65,7 +65,7 @@ function divide(a: string, b: number) {
 **A vous de jouer en intégrant votre prompt ci-dessous**
 
 ```
-Sur MAIA : 
+Sur Chatbot : 
 Voici mon code :  
 function divide(a: string, b: number) {
     var c;
@@ -76,10 +76,10 @@ function divide(a: string, b: number) {
 pourquoi est-ce qu'il ne fonctionne pas ? 
 
 
-Sur le plugin GenAI : 
+Sur le plugin Continue : 
 Ecrivez votre code dans une classe
 Selectionnez-le
-clique droit > BPCE GenAI: Why is it broken ?
+clique droit > Continue: Fix this code
 ```
 **Quelle a été la réponse ?**
 
@@ -141,10 +141,10 @@ function sum(a: number, b: number) {
 peux-tu l'optimiser ?
 
 
-Sur le plugin GenAI : 
+Sur le plugin Continue : 
 Ecrivez votre code dans une classe
 Selectionnez-le
-clique droit > BPCE GenAI: Refactor
+clique droit > Continue: Optimize this code
 ```
 
 **Quelle a été la réponse ?**
