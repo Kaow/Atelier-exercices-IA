@@ -10,7 +10,7 @@ function somme(a: number, b: number): number {
 **A vous de jouer en intégrant votre prompt ci-dessous**
 
 ```
-Sur MAIA : 
+Sur Chatbot : 
 Voici mon code :  
 function somme(a: number, b: number): number {
     return a + b;
@@ -18,10 +18,10 @@ function somme(a: number, b: number): number {
 Ecrit des tests unitaires sur ce code 
 
 
-Sur le plugin GenAI : 
+Sur le plugin Continue : 
 Ecrivez votre code dans une classe
 Selectionnez-le
-clique droit > BPCE GenAI: add tests
+clique droit > Continue: Write comments for this code
 ```
 **Quelle a été la réponse ?**
 
